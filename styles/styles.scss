@@ -1,2 +1,41 @@
 @use 'nullstyles.scss';
 
+
+$side-nav-width: 160/1440 * 100%;
+
+
+a{
+	text-decoration: none;
+}
+
+.item__link{
+	color: black;
+}
+
+.home{
+	height: 100vh;
+	background-image: url(../images/Surf_The_Wave.png);
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+
+	width: $side-nav-width;
+
+	height: 100%;
+
+
+
+	.nav{
+		margin-top: auto;
+	}
+}
